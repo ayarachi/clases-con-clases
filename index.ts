@@ -18,7 +18,7 @@ class Banda {
 function main() {
   const unAlbum = new Album("Album de Ely", []);
   const unaBanda = new Banda(["Eliana"], [unAlbum, unAlbum, unAlbum]);
-  //console.log(unaBanda.members);
+  //console.log("solo es un comentario de prueba" unaBanda.members);
   console.log(unaBanda.albums);
 }
 main();
